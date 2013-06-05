@@ -4,8 +4,7 @@ use warnings FATAL => 'all';
 
 our $VERSION = '0.01';
 
-use Carp qw//;
-use Scalar::Util qw/blessed refaddr/;
+use Scalar::Util qw/refaddr/;
 
 sub invoke {
     my ($class, $code, @args) = @_;
@@ -92,7 +91,9 @@ Sub::Data::Recursive is recursive invoker.
 
 =head1 METHODS
 
-=head2 invoke
+=head2 invoke($code_ref, $hash [, $hash..])
+
+invoke subroutine recursively
 
 
 =head1 REPOSITORY
