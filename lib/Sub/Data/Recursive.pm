@@ -151,7 +151,7 @@ Pass args with $context and $keys (in case of `HASH`)
 =head1 REPOSITORY
 
 Sub::Data::Recursive is hosted on github
-<http://github.com/bayashi/Sub-Data-Recursive>
+L<http://github.com/bayashi/Sub-Data-Recursive>
 
 Welcome your patches and issues :D
 
